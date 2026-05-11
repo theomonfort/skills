@@ -5,7 +5,7 @@ A collection of [Agent Skills](https://agentskills.io/specification) for GitHub 
 ## Install
 
 ```bash
-gh skill install theomonfort/copilot-skills <skill-name>
+gh skill install theomonfort/skills <skill-name>
 ```
 
 Requires GitHub CLI v2.90.0+.
