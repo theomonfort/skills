@@ -15,6 +15,7 @@ Requires GitHub CLI v2.90.0+.
 | Name | Description |
 | ---- | ----------- |
 | [github-issues](skills/github-issues/) | Create well-structured GitHub Issues with templates, labels, priorities and dependencies. Mirrored from [`github/awesome-copilot`](https://github.com/github/awesome-copilot/tree/main/skills/github-issues). |
+| [md-slides-creator](skills/md-slides-creator/) | Author a single Markdown file that doubles as a long-form doc AND a slide deck (one slide per `## H2`). Captures the conventions used by the [theomonfort playbook](https://theomonfort.github.io/theomonfort/playbook/) — frontmatter schema, hero-quote variants, comparison tables, callout patterns, link groups. |
 
 ## Authoring a new skill
 
