@@ -2,7 +2,7 @@
 
 Issue types (Bug, Feature, Task, Epic, etc.) are defined at the **organization** level and inherited by repositories. They categorize issues beyond labels.
 
-For basic usage, the MCP tools handle issue types natively. Call `mcp__github__list_issue_types` to discover types, and pass `type: "Bug"` to `mcp__github__create_issue` or `mcp__github__update_issue`. This reference covers advanced GraphQL operations.
+For basic usage in this skill, prefer `gh api` with the REST issue `type` parameter when issue types are enabled for the owner. This reference covers advanced GraphQL operations for discovery, updates, and fallbacks when REST is not enough.
 
 ## GraphQL Feature Header
 
